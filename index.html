@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SlyYale</title>
+    <meta name="description" content="Agência Especializada em Marketing Digital, Sites">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Maranhão">
+    <link rel="stylesheet" href="css/style.css">
+    
+ <head>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" type="text/css">
+    <link rel="icon" href="img/icon.png">
+    </head>
+    <body>
+        <header class="cabecalho container">
+           <a href="index.html"></a> <h1 class="logo"> SlyYale </h1>
+           <button class="btn-menu bg-gradient"> <i class="fa fa-bars fa-lg"></i> </button>
+           <nav class="menu">
+            <a class="btn-close"><i class="fa fa-times"></i></a>
+            <ul>
+                <li ><a href="#"> Home </a></li>
+                <li ><a href="#"> Clientes </a></li>
+                <li ><a href="#"> Serviços </a></li>
+                <li ><a href="#"> Blog </a></li>
+                <li ><a href="#"> Quem somos </a></li>
+                <li ><a href="#"> Contanto </a></li>
+            </ul>
+           </nav>
+        </header>
+        <div class="banner container">
+            <div class="title">                
+                <h2> OUSE INOVAR </h2>
+                <h3>Criamos experiências e estabelecemos ações estratégicas que conectam marcas e consumidores.</h3>
+            </div>
+            <div class="buttons">
+               <button class="btn btn-cadastrar bg-white"> Cadastrar <i class="fa fa-arrow-circle-right"></i></button>
+               <button class="btn btn-sobre bg-black">Sobre <i class="fa fa-question-circle"></i></button>
+            </div>
+        </div>
+        <main class="servico container">
+            <article class="servicos bg-white">
+              <a href="#"><img src="img/criacoes.jpg" alt="campanhas publicitárias"></a>
+              <div class="inner">
+                <a href="#"> Campanhas Publicitárias</a>
+                <h4>Impressos, VTs e Jingles</h4>
+                <p>Se você esta precisando de criação de algum material em especifico.
+                     conte com nossa equipe de profissionais. 
+                    Eles farão toda a campanha publicitária. VT. Outdoor.folder.
+                     Anúncio e muito mais pela sua empresa no mais alto padrão de qualidade.</p>
+              </div>  
+            </article>
+            <article class="servicos bg-white">
+                <a href="#"><img src="img/md.jpg" alt="Marketing Digital"></a>
+                <div class="inner">
+                  <a href="#"> Marketing Digital</a>
+                  <h4>Administração de Redes Sociais</h4>
+                  <p>Como Agência de publicidade aplicamos estrategias nos meios
+                     digitais para que seu negócio seja visto por milhões de usuarios. O Brasil é o 5° pais mais conectado do mundo. Por este motivo, o seu 
+                     negócio não pode ficar fora do mercado digital.</p>
+                </div>  
+              </article>
+              <article class="servicos bg-white">
+                <a href="#"><img src="img/cs.jpg" alt="Criação de Sites"></a>
+                <div class="inner">
+                  <a href="#"> Criação de Sites</a>
+                  <h4> Sites Administráveis </h4>
+                  <p>Agora você pode administrar seu site quando e como bem entender. 
+                    E melhor ainda pois você pode pagar por estes Serviço, pois desenvolvemos de 
+                    forma. Que seu sites são atualizados, com seus últimos 
+                    produtos, integração com redes sociais, agora é possível.  </p>
+                </div>  
+              </article>
+        </main>
+         <!--NEWSLETTER-->
+         <section class="newsletter container bg-black">
+            <h2> Inscreva-se agora! </h2>
+            <h3> Receba novidades, dicas e muito mais! </h3>
+            <form>
+                <input class="bg-black" type="email" name="email" placeholder="Seu email">
+                <button class="bg-white"> Cadastrar </button>
+            </form>
+
+        </section>
+        <!--RODAPÉ-->
+        <footer class="rodape container bg-gradient">
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-Facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-google"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-envelope"></i></a>
+            </div>
+            <p class="copyright">
+             copyright @ NodeProp 2016. Todos os direitos reservados.
+            </p>
+        </footer>
+
+        <!--JQUERY-->
+        <Script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+            <script>
+            $(".btn-menu").click(function(){
+               $(".menu").show(); 
+            });
+            $(".btn-close").click(function(){
+               $(".menu").hide(); 
+            });
+        </Script>
+    </body>
+</html>
